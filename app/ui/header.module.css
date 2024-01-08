@@ -1,0 +1,47 @@
+.contenedor {
+  width: min(90%, 120rem);
+  margin: 0 auto;
+}
+
+.contenedorHero {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(/img/hero.jpg);
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.imagenHeader {
+  background-color: rgba(0, 0, 0, .7);
+  width: 100%;
+  height: 100%;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 2rem;
+
+}
+
+@media (min-width: 480px) {
+  .mainGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin: 0 auto;
+  }
+
+}
+
+.formulario {
+  background-color: var(--blanco);
+  margin: -5rem auto 0 auto;
+  width: 95%;
+  padding: 5rem;
+}
