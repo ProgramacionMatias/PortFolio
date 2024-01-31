@@ -98,7 +98,7 @@ export default function Main() {
                         <Image src='/img/cafenutricion-t.jpg.webp' width={1000} height={1000} alt="logo" />
                         <article className='mx-3 my-6 overflow-y-scroll scrollbar max-h-80'>
                             <h3 className='text-center my-5 text-4xl font-bold'>Blog Cafe</h3>
-                            <p className='text-start text-2xl'>Conocimientos en Html5, etiquetas, estructura, semantica, formularios, validaciones, etc.Conocimientos en Html5, etiquetas, estructura, semantica, formularios, validaciones, etc.Conocimientos en Html5, etiquetas, estructura, semantica, formularios, validaciones, etc.Conocimientos en Html5, etiquetas, estructura, semantica, formularios, validaciones, etc.Conocimientos en Html5, etiquetas, estructura, semantica, formularios, validaciones, etc.</p>
+                            <p className='text-start text-2xl'> Página creada para mostrar información de los distintos tipos de café, recetas y beneficios que nos puede brindar a nuestro cuerpo </p>
                             <Link href="https://rainbow-muffin-0ad6ae.netlify.app/" legacyBehavior>
                                 <a href="#" target='_blank'>
                                     <Button />
