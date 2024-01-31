@@ -31,9 +31,7 @@ export default function Footer() {
                 <a className="text-white transition duration-700 hover:text-cyan-700  transform hover:scale-125 ">Tecnologias</a>
             </Link>
 
-            <Link legacyBehavior href={"#Contacto"}>
-                <a className="text-white transition duration-700 hover:text-cyan-700  transform hover:scale-125 ">Contacto</a>
-            </Link>
+           
 
 
         </nav>

@@ -16,7 +16,7 @@ export default function Header() {
             <div id='Inicio' className={`${styles.header} `}>
 
                 <section className={`${styles.imagenHeader} ${styles.contenedor} text-white font-bold text-xl `}>
-                    <div className='pt-10 md:flex md:justify-between items-center px-10'>
+                    <div className='pt-10  md:flex md:justify-between items-center px-10'>
 
                         <Link legacyBehavior href={'#Inicio'}>
 
@@ -37,21 +37,19 @@ export default function Header() {
                                 <a className="text-white transition duration-700 hover:text-cyan-700  transform hover:scale-125 ">Tecnologias</a>
                             </Link>
 
-                            <Link legacyBehavior href={"#Contacto"}>
-                                <a className="text-white transition duration-700 hover:text-cyan-700  transform hover:scale-125 ">Contacto</a>
-                            </Link>
+
 
 
                         </nav>
                     </div>
 
-                    <div className='text-center mt-7 md:mt-20 text-7xl '>
-                        <div className="flex justify-center items-center gap-3">
+                    <div className='flex flex-col  gap-3 justify-center content-center  text-center  mt-7 md:mt-20 text-7xl '>
+                        <div className="">
                             <h1 className=''>Matías Baeza Escobar</h1>
-                            <p className=" text-xl transition duration-700 font-bold bg-cyan-400 text-cyan-800 rounded-full px-3 hover:text-cyan-700  transform hover:scale-125 hover:text-2xl ">Disponible para Trabajar</p>
+                            <p className='text-3xl mx-2  mt-5 md:mt-8'>Desarrollador Web FrontEnd</p>
                         </div>
-                        
-                        <p className='text-3xl  mt-5 md:mt-8'>Desarrollador web FrontEnd</p>
+                        <p className="max-w-56 m-auto text-xl transition duration-700 font-bold bg-cyan-400 text-cyan-800 rounded-full px-3 hover:text-cyan-700  transform hover:scale-125 hover:text-2xl ">Disponible para Trabajar</p>
+                    
                     </div>
 
 
