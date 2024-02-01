@@ -20,7 +20,7 @@ export default function Header() {
 
                         <Link legacyBehavior href={'#Inicio'}>
 
-                            <Image src='/img/logoFree.jpeg' width={700} height={700} alt="logo" className="w-40 h-40 rounded-full transition duration-700 tranform hover:scale-125 hover:shadow-cyan-200 shadow-lg" />
+                            <Image src='/img/logoNuevo.jpeg' width={700} height={700} alt="logo" className="w-40 h-40 rounded-full transition duration-700 tranform hover:scale-125 hover:shadow-cyan-200 shadow-lg" />
                         </Link>
 
                         <nav className='flex flex-col md:flex-row gap-1 md:gap-6 text-3xl text-center  ' >
