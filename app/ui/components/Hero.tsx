@@ -30,7 +30,7 @@ export default function Hero() {
                     </div>
                    
                     <Link href={''} legacyBehavior>
-                        <a href="https://api.whatsapp.com/send?phone=964784119" target='_blank'>
+                        <a href="https://api.whatsapp.com/send?phone=944235554" target='_blank'>
                             <Image
                                className="max-w-full  rounded-full transition duration-700 tranform hover:scale-125 hover:shadow-blue-950 shadow-lg"
                                 src={`data:image/svg+xml;base64,${btoa(iconos.whatsapp)}`}
